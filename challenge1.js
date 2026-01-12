@@ -29,3 +29,10 @@ let BMIJohn = function(massJohn, heightJohn){
 
 console.log(BMIMark(78,1.69), BMIJohn(62,1.94));
 console.log(BMIMark(95,1.88), BMIJohn(85,1.76));
+
+//Bonus
+let markHigherBMI1 = BMIMark(78,1.69)>BMIJohn(62,1.94);
+let markHigherBMI2 = BMIMark(95,1.88)>BMIJohn(85,1.76);
+
+console.log(markHigherBMI1);
+console.log(markHigherBMI2);
