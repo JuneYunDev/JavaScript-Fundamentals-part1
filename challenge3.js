@@ -48,11 +48,11 @@ let score3Koalas = 106;
 let averageScoreDolphins = (score1Dolphins+score2Dolphins+score3Dolphins)/3;
 let averageScoreKoalas = (score1Koalas+score2Koalas+score3Koalas)/3;
 
-if(averageScoreDolphins > averageScoreKoalas && averageScoreDolphins > 100){
+if(averageScoreDolphins > averageScoreKoalas && averageScoreDolphins >= 100){
     console.log("Dolphins win the trophy");
-}else if(averageScoreDolphins < averageScoreKoalas && averageScoreKoalas > 100){
+}else if(averageScoreDolphins < averageScoreKoalas && averageScoreKoalas >= 100){
     console.log("Koalas win the trophy");
-}else if (averageScoreDolphins === averageScoreKoalas && averageScoreDolphins >100){
+}else if (averageScoreDolphins === averageScoreKoalas && averageScoreDolphins >=100){
     console.log("Both win the trophy");
 }else{
     console.log("No team win the trophy")
